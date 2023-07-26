@@ -1,0 +1,23 @@
+.app { box-sizing: border-box;
+  h1{text-align: center;}
+  .movie{display: flex; align-items: center; justify-content: space-between;box-sizing: border-box;
+   margin: 0 50px 10px 50px; border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    .movie-title{ flex-grow: 1;}
+    .movie-year{ color: rgb(134, 69, 240); font-size: .6rem;}}
+    form{ padding: 7px 50px;
+        input{width: 100%; padding: 10px 10px; box-sizing: border-box; margin-bottom: 5px;}
+        button{width: 100%; background: rgb(104, 45, 104); padding: 10px 0; border: none; color: white; border-radius: 10px;margin-bottom: 20px;} 
+        .error{color: red; font-size: 10px; margin-bottom: 15px;margin-left: 15px;}
+    }
+    nav{  width: 100%; background:  rgb(104, 45, 104); padding: 20px 0;  box-sizing: border-box;
+      ul{ display: flex;
+        list-style: none;
+        li{ padding: 0 20px;
+            a{text-decoration: none; color: white;}
+        }
+      }
+    }
+  .text{color: red; margin-left: 50px;}
+
+}
+
