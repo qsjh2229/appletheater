@@ -1,0 +1,30 @@
+footer { width: 100%; height: 250px; background: rgb(24, 24, 24);
+  section {  width: 1200px; margin: 0 auto; height: 100%; display: flex; flex-direction: column; justify-content: center;
+    .footerTop { display: flex; justify-content: space-between;  box-sizing: border-box; align-items: center; margin-bottom: 50px;
+      .topLft { width: 700px;
+        ul{display: flex; justify-content: space-between;
+          li{list-style: none;
+            span{color: rgb(139, 139, 139); font-size: 13px; cursor: pointer;}
+          }
+        }
+      }
+      .topRit {
+        button{padding: 10px 30px; border: none; border-radius: 50px; font-size: 13px; line-height: 16px; background: rgb(167, 167, 167);
+          &:hover{opacity: .7;}
+          .sIcon{font-weight: bold; font-size: 16px; margin-right: 5px;}}
+      }
+    }
+    .footerBtm {width: 100%; 
+      display: flex; justify-content: space-between; align-items: center;
+      .left {width: 20%;
+        .footericon{margin: 0; padding: 0; font-size: 60px; color: rgb(139, 139, 139);}
+      }
+      .middle {width: 60%;  text-align: left; 
+        span{display: block; padding: 3px 0; color: rgb(139, 139, 139);}
+      }
+      .right {width: 20%; text-align: right;
+        .icon{ color: rgb(139, 139, 139); font-size: 25px;margin-left: 15px;}
+      }
+    }
+  }
+}

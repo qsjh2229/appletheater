@@ -23,7 +23,7 @@ const userDetail=lodding ? (<div className={styles.loading} >로딩중...</div>)
     <div className={styles.website}>주소: {user.website}</div>
 </div>);
     return (
-        <div>
+        <div className={styles.container}>
             <h2 className={styles.h2}>User info</h2>
           {
             userDetail

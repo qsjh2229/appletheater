@@ -1,14 +1,11 @@
 import React, { useState } from "react";
 import Movie from "../component/Movie";
 import Form from "../component/Form";
+import Styles from './Movies.module.css'
 
 const Movies = () => {
   const [movies, setMovies] = useState([
-    /*   { title: "밀수", year: "2023" },
-          { title: "바비", year: "2023" },
-          { title: "공조2", year: "2022" },
-          { title: "인어공주", year: "2022" },
-          { title: "백설공주", year: "2024" }, */
+   
   ]);
   const removeMovie = (id) => {
     setMovies(
@@ -28,11 +25,12 @@ const Movies = () => {
   };
 
   return (
-    <>
-      <h1>movielist</h1>
+    <div className={Styles.container}>
+
+      <h2>위시리스트</h2>
       <Form addMovie={addMovie} />
       <div className="m-box"> {randerMovies} </div>
-    </>
+    </div>
   );
 };
 

@@ -1,0 +1,15 @@
+nav{ box-sizing: border-box;  width: 100%; background:  rgb(0, 0, 0); height: 80px;
+  }
+  .navWrap{margin: 0 auto; width: 1400px; height: 100%; display: flex; align-items: center; justify-content: space-between; height: 100px;
+  }
+   .navWrap .logoWrap{width: 20%; height: 100%; display: flex; align-items: center; padding: 3%; box-sizing: border-box;}
+   .navWrap .logoWrap span{}
+
+  .navWrap .menuWrap{   height: 100%; width: 60%; }
+  .navWrap .menuWrap .menuUl { display: flex; justify-content: space-around; align-items: center; margin: 0;padding: 0;height: 100%; } 
+  .navWrap .menuWrap .navItem{ list-style: none;margin-right: 10%; }
+  .navWrap .menuWrap .navItem a{text-decoration: none;color: rgb(255, 255, 255); font-size: 20px; }
+
+  .navWrap .navIconWrap { padding: 0; display: flex; align-items: center; width: 20%;   height: 100%; justify-content: end; align-items: center; padding-right: 3%; box-sizing: border-box;}
+  .navWrap .navIconWrap .navIcon{display: block;margin-left:20px; color: white;font-size: 20px; }
+  .navLogo{font-size: 40px; color: rgb(255, 255, 255);}
