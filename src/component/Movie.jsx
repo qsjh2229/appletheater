@@ -8,7 +8,7 @@ const Movie = (props) => {
             <span className="movie-year">{props.movies.year}</span>
             
             </div>
-            <button onClick={()=>{ props.removeMovie(props.movies.id)}}> 삭🤟🏿제</button>
+            <button onClick={()=>{ props.removeMovie(props.movies.id)}}> 삭제</button>
         </div>
     );
 };

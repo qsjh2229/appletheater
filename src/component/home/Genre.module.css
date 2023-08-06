@@ -13,7 +13,7 @@
  .resBtn .hBtn{ width: 25%;  background: rgb(255, 255, 255) ;margin: 0; padding: 0;  margin-top: 10px; border-radius: 12px; padding: 10px 0;}
  .resBtn .rBtn{ width: 70%; ; background: rgb(212, 0, 0) ;margin: 0; padding: 0; margin-top: 10px; border-radius: 12px; padding: 10px 0; transition: .3s;}
  .resBtn .rBtn:hover{background-color:rgba(201, 9, 9, 0.795) ;}
-
+ .heart{ font-size: 30px; margin: 0; padding: 0;}
 
 
 

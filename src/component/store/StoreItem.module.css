@@ -1,0 +1,9 @@
+.storeItem{width: 100%; margin-top: 100px;}
+.itemWrap{width: 1400px; margin:  auto; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.item{width: 23%;margin-bottom: 40px; }
+.imgbox{width: 100%; }
+.imgbox img{width: 100%; border-radius: 20px;}
+.item .textbox{margin-top: 20px; width: 100%; display: flex;  justify-content: space-between; padding: 0 5px;}
+.item .textbox span{color: rgb(221, 221, 221); padding: 5px 0; font-size: 16px;}
+.item .textbox .name{ font-size: 17px; font-weight: 550;}
+

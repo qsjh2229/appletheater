@@ -23,8 +23,9 @@ const Home = () => {
       console.error("Error fetching movies:", error);
       setLoading(false);
     }
-  };
 
+  };
+  console.log(appMovie)
   useEffect(() => {
     getMovies();
   }, []);

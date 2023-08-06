@@ -1,21 +1,30 @@
+import { AiFillHeart } from "react-icons/ai";
 import React, { useState } from 'react';
 import styles from './Moviechart.module.css';
-import { FaStar, FaHeart } from 'react-icons/fa';
+import { FaStar } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 
 const Moviechart = (props) => {
+  // 각 영화에 대한 하트 버튼의 색을 개별적으로 관리하기 위해 배열로 변경
+  const [heartColors, setHeartColors] = useState(Array(props.appMovie.length).fill(false));
+
+  // 하트 버튼의 색을 토글하는 함수
+  const handleHeartClick = (index) => {
+    const newHeartColors = [...heartColors];
+    newHeartColors[index] = !newHeartColors[index];
+    setHeartColors(newHeartColors);
+  };
+
   return (
     <div className={styles.hSection2}>
       <div className={styles.titleWrap}>
-        <h2>영화 차트 </h2>
-        <NavLink to="movie">
-          <span className={styles.movieLink}> 더 많은 영화 보러 가기</span>
+        <h2>영화 차트</h2>
+        <NavLink to="/movie">
+          <span className={styles.movieLink}>더 많은 영화 보러 가기</span>
         </NavLink>
       </div>
       <div className={styles.chartWrap}>
         {props.appMovie.slice(0, 4).map((item, i) => {
-          const [heartColor, setHeartColor] = useState(false);
-
           return (
             <div className={styles.chartcon} key={item.id}>
               <div className={styles.moveieBox}>
@@ -30,16 +39,16 @@ const Moviechart = (props) => {
                   <span className={styles.mstar}>
                     <FaStar /> {item.vote_average}
                   </span>
-                  <span className={styles.mdate}> 개봉일: {item.release_date}</span>
+                  <span className={styles.mdate}>개봉일: {item.release_date}</span>
                 </div>
               </div>
               <div className={styles.btnWrap}>
                 <button
                   className={styles.hBtn}
-                  onClick={() => setHeartColor(!heartColor)}
-                  style={{ color: heartColor ? 'red' : 'black' }}
+                  onClick={() => handleHeartClick(i)}
+                  style={{ color: heartColors[i] ? 'red' : 'black' }}
                 >
-                  <FaHeart className={styles.FaHeart} />
+                  <AiFillHeart className={styles.FaHeart} />
                 </button>
                 <button className={styles.ticketBtn}>
                   <span>예매하기</span>
