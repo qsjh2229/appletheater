@@ -1,8 +1,25 @@
 .loading {
 }
-.user { border-radius: 25px; padding: 50px; box-sizing: border-box;   color: rgb(102, 34, 91);
- margin: 0 auto;
-  .box{width: 550px; height: 600px; margin: 0 auto; text-align: center;}
-  img{width: 55% ; height: 80%; }
+.user {max-width: 1440px; width: 100%; 
+  display: flex; margin: 0 auto; 
+.boxWrap{width:70% ; display: flex; flex-direction: column; justify-content: space-between;
+>div{color: white;}
+.votebox{display: flex; width: 100%;
+div{
+  padding: 5px 15px; border: 1px solid white; border-radius: 20px; margin: 10px 15px; margin-left: 0; font-size: 15px; margin-top: 30px;
+}}
+.name{ margin-top: 50px ; font-size: 40px; font-weight: bolder;}
+.overview{ margin-top: 20px; font-size: 15px; }
+.releaseDate{}
+
 }
-.h2{text-align: center;}
+.ibox{width: 30%; padding: 0 5%; box-sizing: border-box; position: relative;
+img{width: 100%;}}
+.bBox{ display: flex; position: absolute; bottom: 0 ; right: 0;
+  button{ width: 100px; height: 50px; padding: 0; border: none;
+  &:first-child{background: red; border-radius: 10px 0 0 10px ;}
+  &:last-child{border-radius: 0 10px 10px 0;} 
+}
+}
+
+}

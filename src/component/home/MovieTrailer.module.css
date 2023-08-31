@@ -7,3 +7,4 @@
 .tVbox::before{content: ''; position: absolute; left: 0; width: 50%; height: 100%; background: rgb(26,26,26); display: block;
 background: linear-gradient(90deg, rgb(0, 0, 0) 30%, rgba(255, 255, 255, 0) 100%);}
 .tVbox video{width: 100%;}
+.title{font-weight: bolder; font-size: 1.2rem; margin-bottom: 10px; }
