@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import axios from "axios"
 import styles from "./About.module.scss"
 import { FaStar } from "react-icons/fa"
+import AboutDetail from "../component/About/AboutDetail"
 
 const About = () => {
    const { id } = useParams()
@@ -64,6 +65,9 @@ const About = () => {
       <div>
          {/*  <h2 className={styles.h2}>Movie Info</h2> */}
          {movieDetail}
+         <AboutDetail movie={movie} />
+
+
       </div>
    )
 }

@@ -1,0 +1,8 @@
+.aboutTab{width: 1440px; margin: 0 auto;
+   ul{display: flex; align-items: center; width: 100%; border-bottom: 1px solid  rgb(214, 214, 214);;
+     li{ color: black; list-style: none;   cursor: pointer; background: rgb(214, 214, 214); margin-right: 10px; padding: 10px 20px; border-radius:   10px  10px 0 0;
+   &.active{background: red; color: white;}}
+   }
+   }
+ 
+   

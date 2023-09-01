@@ -1,0 +1,47 @@
+.revbox { color: white;
+   width: 100%;
+   .inputbox {
+      display: flex;
+      justify-content: space-between;
+      input {
+         width: calc(100% - 150px);
+         height: 70px;
+         border-radius: 10px;
+      }
+      button {
+         width: 100px;
+         height: 70px;
+         border: none;
+         background: white;
+         border-radius: 10px;
+         font-size: 15px;
+         font-weight: bold;
+         color: rgb(0, 0, 0);
+         &:hover {
+            background: red;
+            color: white;
+         }
+      }
+    
+   }
+}
+
+.retxtbox{
+    .tBox{ border-bottom: 1px solid gray; padding: 10px 0;  
+   .star{ color: yellow; }
+   .desRebox{ padding: 0 5px; padding: 5px 0; 
+      span{font-size: 20px;}
+   }
+   .infRebox{display: flex; justify-content: space-between;  padding: 0 5px; padding: 5px 0;
+      .idbox{
+         .date{}
+         .id{}
+      }
+      .reBtn{
+         .rePBtn{}
+         span{}
+      }
+   }
+ }
+
+}
