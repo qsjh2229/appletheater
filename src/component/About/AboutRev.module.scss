@@ -1,4 +1,5 @@
-.revbox { color: white;
+.revbox {
+   color: white;
    width: 100%;
    .inputbox {
       display: flex;
@@ -22,26 +23,46 @@
             color: white;
          }
       }
-    
    }
 }
 
-.retxtbox{
-    .tBox{ border-bottom: 1px solid gray; padding: 10px 0;  
-   .star{ color: yellow; }
-   .desRebox{ padding: 0 5px; padding: 5px 0; 
-      span{font-size: 20px;}
-   }
-   .infRebox{display: flex; justify-content: space-between;  padding: 0 5px; padding: 5px 0;
-      .idbox{
-         .date{}
-         .id{}
+.retxtbox {
+   .tBox {
+      border-bottom: 1px solid gray;
+      padding: 10px 0;
+      .star {
+         color: yellow;
       }
-      .reBtn{
-         .rePBtn{}
-         span{}
+      .desRebox {
+         padding: 0 5px;
+         padding: 5px 0;
+         span {
+            font-size: 20px;
+         }
       }
-   }
- }
+      .infRebox {
+         display: flex;
+         justify-content: space-between;
+         padding: 0 5px;
+         padding: 5px 0;
+         .idbox {
+            .date {
+            }
+            .id {
+            }
+         }
+         .reBtn {
+            .rePBtn {
+               cursor: pointer;
+               font-size: 50px !important;
+               &:hover {
+                  background: rebeccapurple;
+               }
+            }
 
+            span {
+            }
+         }
+      }
+   }
 }
