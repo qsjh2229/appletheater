@@ -1,5 +1,6 @@
 .store{ margin-top: 100px; width: 100%;
   h2{ width: 1400px; margin: 0 auto; margin-bottom: 50px;}
+<<<<<<< HEAD
   img{ width: 100%;}
  .storeInfo{  width: 1400px; margin: 0 auto; margin-bottom: 100px;
   
@@ -7,6 +8,21 @@
     ul{ display: flex;  justify-content: space-between; width: 800px; margin: 0 auto; 
     li{color: rgb(0, 0, 0); list-style: none; text-align: center; ;
     button{ font-size: 20px; font-weight: bold;padding: 10px 25px; background: white; border-radius: 20px; border: none; }}}
+=======
+  .popadd{width: 100%; margin-bottom: 100px;}
+  img{ width: 100%;}
+ .storeInfo{  width: 1400px; margin: 0 auto; margin-bottom: 100px;
+
+  
+  .storeTan{ 
+    margin-bottom: 30px;
+    ul{ display: flex;  justify-content: space-between; width: 800px; margin: 0 auto; 
+    li{color: rgb(0, 0, 0); list-style: none; text-align: center; ;
+       
+      .tanBtn{ font-size: 20px; font-weight: bold;padding: 10px 25px; background: white; border-radius: 20px; border: none;
+        &.active{background: red; color: white;}
+     }}}
+>>>>>>> 7d622e5dfd5b5dfb4a712af4b88eaf0fd12fc3f3
   }}
 
  }

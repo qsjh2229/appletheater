@@ -35,6 +35,10 @@ const Store = () => {
   return (
     <div className={styles.store}>
       <h2>스토어</h2>
+<<<<<<< HEAD
+=======
+      <img className={styles.popadd} src={require("../image/storeimg.jpg")} alt="popcon add" />
+>>>>>>> 7d622e5dfd5b5dfb4a712af4b88eaf0fd12fc3f3
       <div className={styles.storeInfo}>
         <div className={styles.storeTan}>
           <ul>
