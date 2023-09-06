@@ -2,15 +2,16 @@
    color: white;
    width: 100%;
    .inputbox {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       input {
-         width: calc(100% - 150px);
+         width: calc(100% - 150px) !important;
          height: 70px;
          border-radius: 10px;
       }
       button {
-         width: 100px;
+         width: 100px !important;
          height: 70px;
          border: none;
          background: white;

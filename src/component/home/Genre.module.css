@@ -14,11 +14,5 @@
  .resBtn .rBtn{ width: 70%; ; background: rgb(212, 0, 0) ;margin: 0; padding: 0; margin-top: 10px; border-radius: 12px; padding: 10px 0; transition: .3s;}
  .resBtn .rBtn:hover{background-color:rgba(201, 9, 9, 0.795) ;}
  .heart{ font-size: 30px; margin: 0; padding: 0;}
-<<<<<<< HEAD
-
-=======
-.tanBtn.active{opacity: 1;}
-.tanBtn{opacity: .6;}
->>>>>>> 7d622e5dfd5b5dfb4a712af4b88eaf0fd12fc3f3
 
 

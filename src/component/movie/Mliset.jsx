@@ -5,11 +5,8 @@ import { FaStar } from "react-icons/fa";
 
 const Mliset = (props) => {
   return (
-<<<<<<< HEAD
    <div>
-=======
-   <p>
->>>>>>> 7d622e5dfd5b5dfb4a712af4b88eaf0fd12fc3f3
+ 
       <div className={styles.wrap}>
         <h2>전체영화</h2>
         <div className={styles.wrat}>
@@ -25,10 +22,7 @@ const Mliset = (props) => {
                 <div className={styles.mtxt}>
                   <span className={styles.mtit}>{item.title}</span>
                   <span className={styles.mstar}>
-<<<<<<< HEAD
-=======
                     {" "}
->>>>>>> 7d622e5dfd5b5dfb4a712af4b88eaf0fd12fc3f3
                     <FaStar className={styles.star} /> {item.vote_average}
                   </span>
                   <span className={styles.mdate}> 개봉일: {item.release_date}</span>
@@ -48,11 +42,7 @@ const Mliset = (props) => {
       <div className={styles.banner}>
       <img src={require('../../image/Hyundaicard.png')} alt="" />
     </div>
-<<<<<<< HEAD
    </div>
-=======
-   </p>
->>>>>>> 7d622e5dfd5b5dfb4a712af4b88eaf0fd12fc3f3
   );
 };
 

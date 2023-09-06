@@ -33,7 +33,7 @@ const AboutDetail = ({ movie }) => {
       <section className={styles.aboutTab}>
          <ul>
             <li
-               className={`${styles.abTabbtn} ${tab === 0 ? styles.active : ''}`}
+               classNamgite={`${styles.abTabbtn} ${tab === 0 ? styles.active : ''}`}
                onClick={() => { setTab(0) }}
                eventKey="link0"
             >

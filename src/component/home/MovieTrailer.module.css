@@ -1,5 +1,5 @@
 *{ box-sizing: border-box;}
-.container{width: 1400px; box-sizing:border-box ; margin: 0 auto; margin-top: 50px;}  
+.container{width: 1400px; box-sizing:border-box ; margin: 0 auto; margin-top: 50px; min-height: 90vh;}   
 .tWrap{}
 .tTxt{position: absolute; top: 40%; left: 0;}
 .tTxt span{font-size: 35px; color: white;display: block}

@@ -24,8 +24,8 @@ const AboutRev = () => {
    return (
       <div className={styles.revbox}>
          <form className={styles.inputbox} onSubmit={onSubmit}>
-            <input type='text' value={comment} onChange={oncChangeHncler} />
-            <button onClick={onClickhandelr}>등록</button>
+            <input className={styles.input} type='text' value={comment} onChange={oncChangeHncler} />
+            <button onClick={onClickhandelr}>등록하기</button>
          </form>
          <div className={styles.retxtbox}>
             <AboutMap commenttxt={commenttxt} setCommenttxt={setCommenttxt} > </AboutMap>
