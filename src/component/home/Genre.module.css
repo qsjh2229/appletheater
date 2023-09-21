@@ -1,0 +1,20 @@
+.genreWrap{width: 1400px; margin: 0 auto; margin-top: 100px;}
+.genreWrap h2{ margin: 0; margin-left: 20px;}
+.genreWrap button{ border: none; background: none; color: white; padding: 15px 25px; font-size: 20px; font-weight: bold; cursor: pointer; margin-bottom: 10px; }
+
+.conLists{ width: 1400px; display: flex; flex-direction: row; justify-content: space-between; align-items: center;}
+.genContent{ display: flex; flex-direction: column;}
+.box{display:  flex; width: 450px; height: 250px; background: white; border-radius: 20px; position: relative; overflow: hidden;}
+.box img{width: 100%;}
+.gTxtWrap{position: absolute;width: 100%; top: 0%;display: flex; flex-direction: column ; justify-content: center; height: 100%; background: rgba(0, 0, 0, 0.295);opacity: 0; transition: .3s;}
+.gTxtWrap:hover{opacity: 1;}
+.gTxtWrap span{color: white;margin: 5px 0; margin-left: 8%; font-size: 15px ;}
+.resBtn{width: 100%; display: flex; justify-content: space-between; margin: 0; padding: 0;}
+ .resBtn .hBtn{ width: 25%;  background: rgb(255, 255, 255) ;margin: 0; padding: 0;  margin-top: 10px; border-radius: 12px; padding: 10px 0;}
+ .resBtn .rBtn{ width: 70%; ; background: rgb(212, 0, 0) ;margin: 0; padding: 0; margin-top: 10px; border-radius: 12px; padding: 10px 0; transition: .3s;}
+ .resBtn .rBtn:hover{background-color:rgba(201, 9, 9, 0.795) ;}
+ .heart{ font-size: 30px; margin: 0; padding: 0;}
+.tanBtn.active{opacity: 1;}
+.tanBtn{opacity: .6;}
+
+

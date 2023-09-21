@@ -1,0 +1,43 @@
+
+
+*{margin:  0; padding:  0; box-sizing: border-box;     font-size: calc(0.5vw + 4px);}
+.mainslide{ width: 100%;  }
+.mainSlideBox{  width: 100%;
+  height: 100%;}
+.mainslidecon{width: 100%;  height: 100%;}
+.contentsbox {height: 100%; position: relative;}
+.contentsbox .mainslideImg {width: 100%; height: 100vh; opacity: .94;}
+.contentsbox .mainInfoBox {height: 70%; width: 30%; display: flex; flex-direction: column; justify-content: space-between; position: absolute; top: 15%; left: 5%;}
+ .mainInfoBox .maintitle{color: white; font-size: 60px; font-weight: bold;}
+ .mainInfoBox .maindes {color: white; font-size: 1.1rem;}
+ .mainInfoBox .btnWrap { display: flex; width:270px; justify-content: space-between; align-items: center; margin-top: 20px; }
+ .mainInfoBox .btnWrap  .sBtn{ border: none; color:white; background: red; padding: 10px 15px; border-radius: 50px;transition: .3s;  } 
+ .mainInfoBox .btnWrap  .sBtn:hover{background: rgb(199, 4, 4);  } 
+ .mainInfoBox .btnWrap  .up{font-size: 16px;transition: .5s;}
+ .mainInfoBox .btnWrap  .up:hover{color: red;transform: scale(1.2);}
+ .mainInfoBox .btnWrap  .down:hover{color: red;transform: scale(1.2);}
+ .mainInfoBox .btnWrap  .down{font-size: 16px;transition: .5s;} 
+ .mainInfoBox .btnWrap   .run{color: white; font-size: 16px; display: block;}
+ .smallImgWrap ul{display: flex; flex-wrap: wrap; justify-content: space-between; width: 240%;}
+.smallImgWrap  ul li{width: 22%; height: 20%; list-style: none;}
+.smallImgWrap  ul li img{ width: 100%; border-radius: 8px;}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customDots {
+ position: absolute; bottom: 50px; /* 원하는 위치로 조정 */
+}
+ 
