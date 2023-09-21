@@ -58,7 +58,7 @@ const resetErrors=()=>{
       />{" "}
       <br />
       <div className="error">{yearError}</div>
-      <button type="sumit"> 보고싶은 영화 추가 </button>
+      <button type="sumit"> 화 추가 </button>
     </form>
   );
 };

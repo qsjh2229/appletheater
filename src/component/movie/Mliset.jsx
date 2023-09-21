@@ -5,7 +5,8 @@ import { FaStar } from "react-icons/fa";
 
 const Mliset = (props) => {
   return (
-   <p>
+   <div>
+ 
       <div className={styles.wrap}>
         <h2>전체영화</h2>
         <div className={styles.wrat}>
@@ -41,7 +42,7 @@ const Mliset = (props) => {
       <div className={styles.banner}>
       <img src={require('../../image/Hyundaicard.png')} alt="" />
     </div>
-   </p>
+   </div>
   );
 };
 

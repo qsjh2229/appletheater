@@ -1,7 +1,8 @@
 .hSection2{ width: 1400px; margin: 0 auto;margin-top: 100px;}
-.hSection2 h2{color: white;margin-left: 3%; font-size: 40px; margin-bottom: 30px;}
+.hSection2 h2{color: white;margin-left: 3%; font-size: 40px; margin-bottom: 30px;width: 50%;}
 .chartcon{display: flex; flex-direction: column; width: 20%;}
 .titleWrap{display: flex; width: 100%; justify-content: space-between; align-items: center; }
+.titleWrap a {width: 40%; text-align: right; text-decoration: none;}
 .movieLink{color: rgb(224, 224, 224);margin-right: 3%; cursor: pointer;}
 .movieLink:hover{color: white;}
 .chartWrap{ box-sizing: border-box ; margin: 0; padding: 0; margin: 0 auto;}

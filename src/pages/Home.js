@@ -14,9 +14,7 @@ const Home = () => {
 
   const getMovies = async () => {
     try {
-      const response = await axios.get(
-        "https://api.themoviedb.org/3/movie/now_playing?api_key=4ed08358326bfbef17487ba953a86239&language=ko-KR&region=KR"
-      );
+      const response = await axios.get("https://api.themoviedb.org/3/movie/now_playing?api_key=4ed08358326bfbef17487ba953a86239&language=ko-KR&region=KR");
       setAppMovie(response.data.results);
       setLoading(false);
     } catch (error) {
