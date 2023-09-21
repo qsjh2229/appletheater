@@ -1,8 +1,0 @@
-.soonWrap{ width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; margin-top: 50px;}
-.titleBox{ width: 15%; height: 310px; background: rgba(228, 0, 0, 0.74); border-radius: 20px;display: flex; align-items: center;  justify-content: center;}
-.titleBox span{ color: white; display: block;   font-size: 30px; font-weight: bold;}
-.conBox{  width: 80%; height: 305px; display: flex; align-items: center; justify-content: space-between;} 
-.conWrap{ width: 100%; height: 100%;}
-.conWrap li { width: 20%;  }
-.conWrap li div {  margin:0 5px }
-.conWrap li img{ width: 100%; height: 100%;  border-radius: 20px;}
