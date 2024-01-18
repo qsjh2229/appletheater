@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/appletheater/static/css/main.aef91bca.css",
-    "main.js": "/appletheater/static/js/main.6cccd9c4.js",
+    "main.css": "/appletheater/static/css/main.dfa6fbfd.css",
+    "main.js": "/appletheater/static/js/main.aa7bdbe1.js",
     "static/media/thhmarvels.mp4": "/appletheater/static/media/thhmarvels.cb4ac6bc56559f5a7cae.mp4",
     "static/media/smallfish.png": "/appletheater/static/media/smallfish.65467ea7b90777febd33.png",
     "static/media/mainslide-arial.jpg": "/appletheater/static/media/mainslide-arial.8fbf24ccd0f7b409cb49.jpg",
@@ -72,11 +72,11 @@
     "static/media/slick.ttf": "/appletheater/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/appletheater/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/appletheater/index.html",
-    "main.aef91bca.css.map": "/appletheater/static/css/main.aef91bca.css.map",
-    "main.6cccd9c4.js.map": "/appletheater/static/js/main.6cccd9c4.js.map"
+    "main.dfa6fbfd.css.map": "/appletheater/static/css/main.dfa6fbfd.css.map",
+    "main.aa7bdbe1.js.map": "/appletheater/static/js/main.aa7bdbe1.js.map"
   },
   "entrypoints": [
-    "static/css/main.aef91bca.css",
-    "static/js/main.6cccd9c4.js"
+    "static/css/main.dfa6fbfd.css",
+    "static/js/main.aa7bdbe1.js"
   ]
 }
